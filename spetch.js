@@ -12,7 +12,7 @@ function setup(){
     frameRate(5);
     snake = new Snake();
     foodLocation();
-    textSize(0.5);
+    textSize(2);
       }
 
 function foodLocation() {
@@ -54,8 +54,8 @@ function draw(){
       if (snake.endGame()) {
         background(255)
         fill('black')
-        text(r, 1, 1);
-        noLoop();
+        text(r, 1, 5);
+        //noLoop();
       }
 
 
